@@ -1,0 +1,34 @@
+# Python cache files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Build and dist
+dist/
+build/
+*.egg
+*.egg-info/
+
+# Logs
+*.log
+
+# IDE and OS
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore everything in mmdetection3d except configs and checkpoints
+mmdetection3d/*
+!mmdetection3d/configs/
+!mmdetection3d/checkpoints/
+
+# Ignore subdirectories in configs and checkpoints that we don't want
+mmdetection3d/configs/*/
+!mmdetection3d/configs/_base_/
+!mmdetection3d/configs/geoheightbev/
+mmdetection3d/checkpoints/*/
+!mmdetection3d/checkpoints/geoheightbev_cp_4x8_1x_dair-v2x-i/
+
+# Ignore large checkpoint files
+*.pth
