@@ -35,22 +35,16 @@ test_pipeline = [
             'bot_pct_lim': (0.0, 0.0),
             'cams': ['CAM_FRONT'],
             'Ncams': 1,
-        }),
-  
-    dict(type='ImageOffset', 
-            ratio_range = [1.0, 0.0],
-            roll_range = [0.0, 0.0],
-            pitch_range = [0.0, 0.0]
-        ),        
+        }),     
     dict(
         type='RandomLidarDegradationWithFOV',
-        prob_clean=1.0,        # Clean模式概率
-        prob_sparse=0.0,       # Sparse模式概率
-        prob_limited_fov=0.0,  # Limited-FOV模式概率
-        prob_no_lidar=0.0,     # No-LiDAR模式概率
-        sparse_ratio=0.5,      # Sparse模式下保留的点云比例
-        fov_angles=[30],   # Limited-FOV模式下的角度列表
-        seed=None              # 随机种子（可选）
+        prob_clean=1.0,
+        prob_sparse=0.0,
+        prob_limited_fov=0.0,
+        prob_no_lidar=0.0,
+        sparse_ratio=0.5,
+        fov_angles=[30],
+        seed=None
     ),
     
     dict(type='HeightAndGrad', 
@@ -85,7 +79,7 @@ test_pipeline = [
         ],
         meta_keys=('img_path', 'ori_shape', 'img_shape', 'lidar2img',
                 'depth2img', 'cam2img', 'pad_shape','lidar2cam_mats','lidar2img_mats','cam2img_mats',
-                'cam2img_ori','lidar2img_ori', "img_edge", 'affine_matrix',
+                'cam2img_ori','lidar2img_ori',
                 'scale_factor', 'flip', 'pcd_horizontal_flip',
                 'pcd_vertical_flip', 'box_mode_3d', 'box_type_3d',
                 'img_norm_cfg', 'num_pts_feats', 'pcd_trans',
