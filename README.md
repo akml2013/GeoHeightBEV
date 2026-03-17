@@ -1,7 +1,5 @@
 # GeoHeightBEV: A Geometric Height Prior Framework for Calibration-Error-Robust BEV Perception
 
-## Authors
-
 [Dengfeng Liu](https://orcid.org/0000-0002-6193-6641), [Ruize Song](https://orcid.org/0009-0009-0486-3907), [Shanjie Li](https://orcid.org/0009-0000-9150-7621), and [Mai Xu](https://orcid.org/0000-0002-0277-3301), Senior Member, IEEE
 
 ## Overview
