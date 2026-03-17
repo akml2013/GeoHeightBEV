@@ -29,3 +29,4 @@ mmdetection3d/configs/*/
 
 # Ignore large checkpoint files
 *.pth
+*.pt

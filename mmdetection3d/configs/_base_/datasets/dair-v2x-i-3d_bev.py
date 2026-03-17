@@ -3,6 +3,7 @@ dataset_type = 'DairV2XIDataset'
 data_root = 'data/single-infrastructure-side/'
 class_names = ['Pedestrian', 'Cyclist', 'Car']
 
+# point cloud range
 point_cloud_range = [0, -48, -3, 204, 48, 1]
 height_bound=[-2.0, 0.0, 90]
 
