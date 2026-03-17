@@ -1,12 +1,8 @@
-<div align="center">
-
 # GeoHeightBEV: A Geometric Height Prior Framework for Calibration-Error-Robust BEV Perception
 
----
+## Authors
 
-**[Dengfeng Liu](https://orcid.org/0000-0002-6193-6641)** · **[Ruize Song](https://orcid.org/0009-0009-0486-3907)** · **[Shanjie Li](https://orcid.org/0009-0000-9150-7621)** · **[Mai Xu](https://orcid.org/0000-0002-0277-3301)**, Senior Member, IEEE
-
-</div>
+[Dengfeng Liu](https://orcid.org/0000-0002-6193-6641), [Ruize Song](https://orcid.org/0009-0009-0486-3907), [Shanjie Li](https://orcid.org/0009-0000-9150-7621), and [Mai Xu](https://orcid.org/0000-0002-0277-3301), Senior Member, IEEE
 
 ## Overview
 
@@ -20,14 +16,13 @@ To overcome these issues, we propose GeoHeightBEV, a multimodal roadside BEV per
 
 Our method achieves state-of-the-art results on the DAIR-V2X-I benchmark, raising vehicle, pedestrian, and cyclist detection mAP by 11.18%, 6.48%, and 9.74%, respectively.
 
-## Installation
-
-For detailed installation and usage instructions, please refer to [INSTALL.md](INSTALL.md).
-
 ## Incoming
 
-- All source code has been released, including model implementations, dataset converters, and inference scripts.
-- Model checkpoints will be uploaded to external storage due to GitHub's file size limit.
+- Currently, only configuration files are released. The complete inference code pipeline will be available soon.
+
+## Installation
+
+For detailed installation instructions, please refer to [INSTALL.md](INSTALL.md).
 
 ## Model Checkpoints
 
