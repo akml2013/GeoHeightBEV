@@ -1,6 +1,5 @@
 _base_ = [
     '../_base_/datasets/dair-v2x-i-3d_bev.py',
-    '../_base_/schedules/cosine-40e.py',
     '../_base_/default_runtime.py'
 ]
 

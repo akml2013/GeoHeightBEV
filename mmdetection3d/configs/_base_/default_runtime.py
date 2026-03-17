@@ -5,15 +5,12 @@ default_hooks = dict(
     logger=dict(type='LoggerHook', interval=50),
     param_scheduler=dict(type='ParamSchedulerHook'),
     checkpoint=dict(type='CheckpointHook',     
-                    interval=1,          # 每1个epoch保存一次
-                    by_epoch=True,       # 按epoch计数
-                    save_optimizer=True, # 保存优化器状态（便于恢复训练）
-                    out_dir='checkpoints',  # 保存目录
-                    max_keep_ckpts=10     # 最多保留5个历史检查点
+                    interval=1,
+                    by_epoch=True,
+                    save_optimizer=True,
+                    out_dir='checkpoints',
+                    max_keep_ckpts=10
                     ),
-    # checkpoint=dict(type='CheckpointHook',     
-    #                 interval=-1
-    #                 ),    
     sampler_seed=dict(type='DistSamplerSeedHook'),
     visualization=dict(type='Det3DVisualizationHook'))
 
