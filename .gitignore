@@ -18,14 +18,20 @@ build/
 .vscode/
 .idea/
 
-# Ignore everything in mmdetection3d except configs
+# Ignore everything in mmdetection3d except configs, tools, and data
 mmdetection3d/*
 !mmdetection3d/configs/
+!mmdetection3d/tools/
+!mmdetection3d/data/
 
 # Ignore subdirectories in configs that we don't want
 mmdetection3d/configs/*/
 !mmdetection3d/configs/_base_/
 !mmdetection3d/configs/geoheightbev/
+
+# Ignore subdirectories in data that we don't want
+mmdetection3d/data/*/
+!mmdetection3d/data/split_datas/
 
 # Ignore large checkpoint files
 *.pth
