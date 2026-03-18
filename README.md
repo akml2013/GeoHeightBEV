@@ -23,9 +23,7 @@
     </a>
   </p>
 </p>
-
-## Overview
-
+<br />
 ![alt text](assets/GeoHeightBEV-Structure.png)
 
 ## Abstract
