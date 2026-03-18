@@ -1,6 +1,28 @@
-# GeoHeightBEV: A Geometric Height Prior Framework for Calibration-Error-Robust BEV Perception
+<p align="center">
 
-[Dengfeng Liu](https://orcid.org/0000-0002-6193-6641), [Ruize Song](https://orcid.org/0009-0009-0486-3907), [Shanjie Li](https://orcid.org/0009-0000-9150-7621), and [Mai Xu](https://orcid.org/0000-0002-0277-3301), Senior Member, IEEE
+  <h1 align="center">GeoHeightBEV: A Geometric Height Prior Framework for Calibration-Error-Robust BEV Perception</h1>
+  <p align="center">
+    <a href="https://orcid.org/0000-0002-6193-6641"><strong>Dengfeng Liu</strong></a>
+    ·
+    <a href="https://orcid.org/0009-0009-0486-3907"><strong>Ruize Song</strong></a>
+    ·
+    <a href="https://orcid.org/0009-0000-9150-7621"><strong>Shanjie Li</strong></a>
+    ·
+    <a href="https://orcid.org/0000-0002-0277-3301"><strong>Mai Xu</strong></a>, Senior Member, IEEE
+  </p>
+
+</p>
+
+<p align="center">
+  <br>
+    <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
+    <a href="https://github.com/open-mmlab/mmdetection3d"><img alt="MMDetection3D" src="https://img.shields.io/badge/-MMDetection3D-blue?logo=python&logoColor=white"></a>
+    <br></br>
+    <a href="">
+      <img src='https://img.shields.io/badge/Paper-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&labelColor=66cc00&color=94DD15' alt='Paper PDF'>
+    </a>
+  </p>
+</p>
 
 ## Overview
 
