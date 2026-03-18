@@ -8,7 +8,7 @@
     ·
     <a href="https://orcid.org/0009-0000-9150-7621"><strong>Shanjie Li</strong></a>
     ·
-    <a href="https://orcid.org/0000-0002-0277-3301"><strong>Mai Xu</strong></a>, Senior Member, IEEE
+    <a href="https://orcid.org/0000-0002-0277-3301"><strong>Mai Xu</strong></a>
   </p>
 
 </p>
